@@ -8,6 +8,11 @@ export const Container = styled.div`
   color: #eee;
   padding: 20px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const Logo = styled.div`
@@ -28,6 +33,19 @@ export const Buttons = styled.div`
 
     &:nth-child(1) {
       margin-right: 40px;
+    }
+  }
+
+    @media (max-width: 768px) {
+    flex-direction: column;
+
+    div {
+      margin-bottom: 10px;
+
+      &:nth-child(1) {
+        margin-right: 0;
+        margin: 10px;
+      }
     }
   }
 `;
