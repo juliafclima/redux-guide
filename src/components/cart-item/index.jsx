@@ -1,4 +1,4 @@
-import * as Styles from "./cart-item.styles";
+import * as Styles from "./styles";
 
 import { AiOutlineClose, AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 

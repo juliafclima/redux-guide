@@ -43,6 +43,13 @@ export const CartTitle = styled.p`
   margin-bottom: 15px;
 `;
 
+export const CartSubtitle = styled.p`
+  font-size: "18px";
+  color: "#999";
+  text-align: "center";
+  padding: "20px";
+`;
+
 export const CartTotal = styled.p`
   font-weight: 600;
   font-size: 1.125rem;
