@@ -19,7 +19,7 @@ const Cart = ({ isVisible, setIsVisible }) => {
             <CartItem key={product.id} product={product} />
           ))
         ) : (
-          <Styles.CartSubtitle>Carrinho vazio...</Styles.CartSubtitle>
+          <Styles.CartSubtitle>Seu carrinho está vazio no momento</Styles.CartSubtitle>
         )}
       </Styles.CartContent>
     </Styles.CartContainer>
