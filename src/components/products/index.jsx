@@ -1,10 +1,7 @@
-import products from "../../data/products";
-
-// Components
-import ProductItem from "../product-item/index";
-
-// Styles
 import * as Styles from "./styles";
+
+import ProductItem from "../product-item/index";
+import products from "../../data/products";
 
 const Products = () => {
   return (

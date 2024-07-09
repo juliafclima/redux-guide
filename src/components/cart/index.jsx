@@ -1,4 +1,3 @@
-// Styles
 import * as Styles from "./styles";
 
 const Cart = ({ isVisible, setIsVisible }) => {

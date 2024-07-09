@@ -1,7 +1,6 @@
-import React from "react";
-
-// Styles
 import * as Styles from "./styles";
+
+import React from "react";
 
 const CustomButton = ({ children, startIcon, ...rest }) => {
   return (

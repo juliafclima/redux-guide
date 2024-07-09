@@ -36,11 +36,13 @@ export const CartContent = styled.div`
     min-width: 85%;
   }
 `;
+
 export const CartTitle = styled.p`
   font-size: 1.325rem;
   font-weight: 600;
   margin-bottom: 15px;
 `;
+
 export const CartTotal = styled.p`
   font-weight: 600;
   font-size: 1.125rem;

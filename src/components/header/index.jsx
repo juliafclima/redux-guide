@@ -1,10 +1,7 @@
-import { useState } from "react";
-
-// Components
-import Cart from "../cart/index";
-
-// Styles
 import * as Styles from "./styles";
+
+import Cart from "../cart/index";
+import { useState } from "react";
 
 function Header() {
   const [cartIsVisible, setCartIsVisible] = useState(false);

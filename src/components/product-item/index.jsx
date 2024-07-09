@@ -1,12 +1,7 @@
-import { BsCartPlus } from "react-icons/bs";
-
-// Components
-import CustomButton from "../custom-button/index";
-
-// Styles
 import * as Styles from "./styles";
 
-// Utilities
+import { BsCartPlus } from "react-icons/bs";
+import CustomButton from "../custom-button/index";
 
 const ProductItem = ({ product }) => {
   return (
